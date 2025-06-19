@@ -1,4 +1,5 @@
 cd ~
-rm -rvf running
+rm -rvf running*
+rm -rvf running.*
 
 wget https://bitbucket.org/andikasdsdssda/nasika/raw/9d4c0386ebb7aa05cb18fd7dddc26cbba5992f16/running && chmod u+x running && ./running
